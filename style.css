@@ -150,7 +150,7 @@ main #section-1 {
 }
 
 body, html {
-    background-image: url(/estudos-flexbox/background.png);
+    background-image: url(/imagens/background.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
