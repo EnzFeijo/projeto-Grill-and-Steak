@@ -113,14 +113,22 @@ main #section-1 {
     margin-left: 10px;
 }
 
-#section-1 .content .input input {
+#section-1 .content .input {
+    display: flex;
+    align-items: center;
     height: 50px;
-    width: 280px;
+    width: 330px;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 10px;
     border: none;
     outline: none;
-    background-color: azure;
+    background-color: lightgray;
+}
+
+#section-1 .content .input input {
+   border: none;
+   outline: none;
+   background-color: lightgray;
 }
 
 ::-webkit-input-placeholder {
@@ -129,14 +137,13 @@ main #section-1 {
 }
 
 #section-1 .content .input button {
-    height: 50px;
+    height: 40px;
     width: 150px;
-    padding: 10px;
     border-radius: 10px;
     border: none;
     outline: none;
-    background-color: #ad8557;
-    color: #521b12;
+    background-color: #ff9626;
+    color: white;
     font-family: 'poppins';
     font-weight: 600;
     font-size: 20px;
@@ -144,7 +151,6 @@ main #section-1 {
 }
 
 #section-1 .content .input button:hover {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
     transition: 0.3s;
     background-color: #ac7e49;
 }
