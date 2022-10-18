@@ -158,7 +158,7 @@ main #section-1 {
 body, html {
     background-image: url(./imagens/background.png);
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
